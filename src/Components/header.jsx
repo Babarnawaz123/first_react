@@ -30,7 +30,7 @@ return(
 </div>)
 }
 export function Jsx(){
-  const UserName = "Babar Nawwaz";
+  const UserName = "Babar Nawaz";
   let x= 60;
   let y =70;
   return(
