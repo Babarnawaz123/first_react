@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import './todo.css';
 function Todo(){
 const [tasks, setTasks] = useState([
-    'Hit the gym',
-    'Pay bills',
-    'Meet George',
-    'Buy eggs',
-    'Read a book',
-    'Organize office'
+    'hi there',
+    'This is Babar',
+    'Intern in IdeoFuzion',
+    'in Frontend',
+    'html,css,javaScript',
+    'React'
   ]);
   const [input, setInput] = useState('');
 
