@@ -2,32 +2,21 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Header from './header'
-function hello(){
+import Header,{NavBar,Setting,SearchBar} from './Components/header'
+import Usercomponent, { Userkey } from './Components/UserComponent'
+function App(){
 
   return  (
     <div>
-    <h2>hello react</h2>
-    <h2>hello world {sum()} </h2>
+    <NavBar/>
      <Header/>
-     <Fruit/>
-     <Color/>
+    <h2>hello react</h2>
+    <h2>hello world </h2>
+    <Setting/>
+    <SearchBar/>
+     <Usercomponent/>
+     <h1>{Userkey}</h1>
      </div>
   )
-
- 
 }
-function Fruit(){
-  return (
-   <h1>this fruit is Apple </h1>
-  )
-}
-function Color(){
-  return(
-  <h4>color of this fruit is Red</h4>) 
-}
-function sum(){
-  return(1000+1000)
-}
-
-export default hello;
+export default App;
