@@ -1,0 +1,65 @@
+
+.todo-container {
+  color: black;
+  width: 300px;
+  margin: 50px auto;
+  font-family: Arial;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.header {
+  color: black;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.header input {
+  color: black;
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.addBtn {
+  background-color: #3c9;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.addBtn:hover {
+  background-color: #36b68b;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  color: black;
+  padding: 10px;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 4px;
+}
+
+li:hover {
+  background: #ddd;
+}
+
+.close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: red;
+  cursor: pointer;
+  font-weight: bold;
+}

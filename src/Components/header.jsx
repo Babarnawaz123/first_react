@@ -29,5 +29,18 @@ return(
 <h2>Search Bar</h2>
 </div>)
 }
+export function Jsx(){
+  const UserName = "Babar Nawwaz";
+  let x= 60;
+  let y =70;
+  return(
+    <div>
+   <h4>{UserName}</h4>
+   <h3>{20+10}</h3>
+   <h3>{x+y}</h3>
+   </div>
+
+  )
+}
 
 export default Header;

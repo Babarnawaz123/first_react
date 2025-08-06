@@ -2,12 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Header,{NavBar,Setting,SearchBar} from './Components/header'
+import Header,{NavBar,Setting,SearchBar,Jsx} from './Components/header'
 import Usercomponent, { Userkey } from './Components/UserComponent'
+import Todo from './Components/Todo'
 function App(){
 
   return  (
     <div>
+    
     <NavBar/>
      <Header/>
     <h2>hello react</h2>
@@ -15,7 +17,10 @@ function App(){
     <Setting/>
     <SearchBar/>
      <Usercomponent/>
+   
      <h1>{Userkey}</h1>
+       <Jsx/>
+         <Todo/>
      </div>
   )
 }
