@@ -8,10 +8,8 @@ import Todo from './Components/Todo'
 import Practice_jsx from './Components/jsx_Practice'
 import States from './Components/states'
 function App(){
-
   return  (
     <div>
-    
     <NavBar/>
      <Header/>
     <h2>hello react</h2>
@@ -19,13 +17,14 @@ function App(){
     <Setting/>
     <SearchBar/>
      <Usercomponent/>
-   
      <h1>{Userkey}</h1>
        <Jsx/>
          <Todo/>
          <Practice_jsx/>
          <States/>
+
      </div>
+
   )
 }
 export default App;

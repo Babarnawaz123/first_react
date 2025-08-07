@@ -30,12 +30,10 @@ const Counter=()=>{       // counter by State
     const [display, setDisplay] = useState(true);
     return (
       <div>
-        
         <h2>Toggle in react JS </h2>
-       
         <button onClick={() => setDisplay(!display)}>Toggle
         </button>
-         {display ? <h1>babar nawaz</h1> : null}
+         {display ? <h1>babar nawaz</h1> : null} 
       </div>
     );
   };
