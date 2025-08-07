@@ -6,6 +6,7 @@ import Header,{NavBar,Setting,SearchBar,Jsx} from './Components/header'
 import Usercomponent, { Userkey } from './Components/UserComponent'
 import Todo from './Components/Todo'
 import Practice_jsx from './Components/jsx_Practice'
+import States from './Components/states'
 function App(){
 
   return  (
@@ -23,6 +24,7 @@ function App(){
        <Jsx/>
          <Todo/>
          <Practice_jsx/>
+         <States/>
      </div>
   )
 }
